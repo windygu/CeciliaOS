@@ -1,2 +1,2 @@
-﻿Version 0.0.0.1(s-ver 17;revision 050220212133)
-	首次编译。
+﻿Version 21.5.1.195PRE-RO
+	init

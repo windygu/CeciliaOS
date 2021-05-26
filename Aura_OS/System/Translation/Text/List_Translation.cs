@@ -468,7 +468,7 @@ namespace Aura_OS.System.Translation
 
                 case "en_US":
                     Console.WriteLine("About Cecilia:");
-                    Console.WriteLine("Create by Biscuitcube Studio and Ziegler Yuan");
+                    Console.WriteLine("Create by RisConn Co., Ltd. and Ziegler Yuan");
                     Console.WriteLine();
                     Console.WriteLine("Contributors or Projects:");
                     Console.WriteLine("- Aura-OS");

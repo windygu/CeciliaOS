@@ -20,6 +20,7 @@ using System.IO;
 using System.Text;
 using L = Aura_OS.System.Translation;
 using Aura_OS.System.Shell.cmdIntr.Tools;
+using Aura_OS.System.Shell.cmdIntr;
 using Aura_OS.System.Computer;
 
 namespace Aura_OS.System.Shell.cmdIntr
@@ -70,6 +71,7 @@ namespace Aura_OS.System.Shell.cmdIntr
             CMDs.Add(new CommandTree(new string[] { "tree" }));
             CMDs.Add(new Edit(new string[] { "edit", "vim" }));
             CMDs.Add(new CPUInfo(new string[] { "cpui", "cpuinfo" }));
+            CMDs.Add(new cmdIntr.CommandPCName(new string[] { "pcn" }));
 
             CMDs.Add(new CommandAction(new string[] { "beep" }, () =>
             {

@@ -1,4 +1,4 @@
-﻿Copyright (c) 2017-2020 Biscuitcube Studio.
+﻿Copyright (c) 2017-2021 RisConn Co., Ltd.
 
 Cecilia 是一个轻量，快速，安全的操作系统。基于Aura OS开发。底层框架为C#
 

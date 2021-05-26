@@ -28,7 +28,9 @@ namespace Aura_OS
 
         Setup setup = new Setup();
         public static bool running;
-        public static string version = "0.0.1.71";
+        public static string version = "21.5.1.195PRE-RO";
+        public static string version_int = "21.5.1.195";
+        public static string version_tag = "preview;ro";
         public static string revision = VersionInfo.revision;
         public static string current_directory = @"0:\";
         public static string langSelected = "en_US";
@@ -74,6 +76,8 @@ namespace Aura_OS
                 Encoding.RegisterProvider(CosmosEncodingProvider.Instance);
                 Console.InputEncoding = Encoding.Unicode;
                 Console.OutputEncoding = Encoding.Unicode;
+                System.CustomConsole.WriteLineInfo("Cecilia Version:" + Kernel.version);
+                System.CustomConsole.WriteLineWarning("This version of Cecilia is preview-ro version.");
 
                 #endregion
 
@@ -83,7 +87,7 @@ namespace Aura_OS
 
                 #endregion
 
-                System.CustomConsole.WriteLineInfo("Booting Aura Operating System...");
+                System.CustomConsole.WriteLineInfo("Booting Cecilia Operating System...");
 
                 #region Filesystem Init
 
@@ -99,7 +103,7 @@ namespace Aura_OS
 
                 #endregion
 
-                System.CustomConsole.WriteLineOK("Aura successfully started!");
+                System.CustomConsole.WriteLineOK("Cecilia successfully started!");
 
                 #region Installation Init
 

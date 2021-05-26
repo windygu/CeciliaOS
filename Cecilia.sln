@@ -5,10 +5,6 @@ VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aura_OS", "Aura_OS\Aura_OS.csproj", "{E0EC8D7A-B5D7-4097-AB38-2FD033B4B8D2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cecilia_Plugins", "Aura_Plugs\Cecilia_Plugins.csproj", "{238449E7-EB82-4BE0-9C60-2BAF86F56D52}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogoImgConverter", "LogoImgConverter\LogoImgConverter.csproj", "{080F537D-2277-4B17-AED0-4D2A892BAA3E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,14 +15,6 @@ Global
 		{E0EC8D7A-B5D7-4097-AB38-2FD033B4B8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0EC8D7A-B5D7-4097-AB38-2FD033B4B8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0EC8D7A-B5D7-4097-AB38-2FD033B4B8D2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{238449E7-EB82-4BE0-9C60-2BAF86F56D52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{238449E7-EB82-4BE0-9C60-2BAF86F56D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{238449E7-EB82-4BE0-9C60-2BAF86F56D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{238449E7-EB82-4BE0-9C60-2BAF86F56D52}.Release|Any CPU.Build.0 = Release|Any CPU
-		{080F537D-2277-4B17-AED0-4D2A892BAA3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{080F537D-2277-4B17-AED0-4D2A892BAA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{080F537D-2277-4B17-AED0-4D2A892BAA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{080F537D-2277-4B17-AED0-4D2A892BAA3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
