@@ -71,8 +71,7 @@ namespace Aura_OS.System.Shell.cmdIntr
             CMDs.Add(new CommandTree(new string[] { "tree" }));
             CMDs.Add(new Edit(new string[] { "edit", "vim" }));
             CMDs.Add(new CPUInfo(new string[] { "cpui", "cpuinfo" }));
-            CMDs.Add(new cmdIntr.CommandPCName(new string[] { "pcn" }));
-
+            CMDs.Add(new cmdIntr.CommandPCManager(new string[] { "pcm","settings" }));
             CMDs.Add(new CommandAction(new string[] { "beep" }, () =>
             {
                 Cosmos.System.PCSpeaker.Beep();

@@ -9,7 +9,7 @@
       <![CDATA[
         namespace Aura_OS
 {
-    public class VersionInfo
+    public class VersionInfo_t
     {
         public static string revision = "$(Date)$(Month)$(Year)$(Time)"%3b
     }

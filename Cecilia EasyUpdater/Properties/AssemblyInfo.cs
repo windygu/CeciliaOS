@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("LogoImgConverter")]
+[assembly: AssemblyTitle("Cecilia EasyUpdater")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("LogoImgConverter")]
+[assembly: AssemblyProduct("Cecilia EasyUpdater")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("080f537d-2277-4b17-aed0-4d2a892baa3e")]
+[assembly: Guid("c1b572cb-4484-4f79-834d-31603094e0bd")]
 
 // 程序集的版本信息由下列四个值组成: 
 //

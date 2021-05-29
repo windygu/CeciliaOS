@@ -475,6 +475,7 @@ namespace Aura_OS.System.Translation
                     Console.WriteLine("- Cosmos");
                     Console.WriteLine();
                     Console.WriteLine("Thanks also to the Cosmos contributors.");
+                    Console.WriteLine("你好，世界！");
                     Console.WriteLine("https://github.com/aura-systems/Aura-Operating-System");
                     break;
 

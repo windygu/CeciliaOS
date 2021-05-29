@@ -28,8 +28,8 @@ namespace Aura_OS
 
         Setup setup = new Setup();
         public static bool running;
-        public static string version = "21.5.1.195PRE-RO";
-        public static string version_int = "21.5.1.195";
+        public static string version = "21.5.2.221PRE-RO";
+        public static string version_int = "21.5.2.221";
         public static string version_tag = "preview;ro";
         public static string revision = VersionInfo.revision;
         public static string current_directory = @"0:\";
