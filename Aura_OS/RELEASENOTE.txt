@@ -7,3 +7,7 @@ Version 21.5.2.240
 	第一个release
 	删除了多语言支持
 	添加了Debug Mode(WIP)
+Version 21.5.2.240(Wrapper 21.5.2.241) [Build with Yoki]
+	完善了debug mode
+	添加了OEM信息
+	设置为"蓝屏",不再是红屏了

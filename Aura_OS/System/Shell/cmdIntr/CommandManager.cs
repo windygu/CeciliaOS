@@ -76,6 +76,42 @@ namespace Aura_OS.System.Shell.cmdIntr
             {
                 Cosmos.System.PCSpeaker.Beep();
             }));
+            CMDs.Add(new CommandAction(new string[] { "crash" }, () =>
+             {
+                 Crash.StopKernel("User let Kernel stopped.", "User run 'crash' command", "0x4DDFE007", "0062");
+             }));
+            CMDs.Add(new CommandAction(new string[] { "xdbg-sysi" }, () =>
+              {
+                  if (!Kernel.debugMode)
+                  {
+
+                  }
+                  else
+                  {
+                      CustomConsole.WriteLineInfo("Kernel Version: " + Kernel.version);
+                      CustomConsole.WriteLineInfo("Wrapper Version: " + Kernel.version_wrapper);
+                      CustomConsole.WriteLineInfo("Kernel Mark: " + Kernel.version_mark);
+                      if (Kernel.version_mark != string.Empty) CustomConsole.WriteLineWarning("Kernel Mark is existed.OEM Support end.");
+                      CustomConsole.WriteLineInfo("Kernel Tag: " + Kernel.version_tag);
+                      CustomConsole.WriteLineInfo("Booted Device: " + Kernel.current_volume);
+                      CustomConsole.WriteLineInfo("Booted Time: " + Kernel.boottime);
+                  }
+              }));
+            CMDs.Add(new CommandAction(new string[] { "xdbg-unlock" }, () =>
+            {
+                if (Kernel.debugMode)
+                {
+                    CustomConsole.WriteLineOK("Already Unlocked");
+                }
+                else
+                {
+                    string code = Console.ReadLine();
+                    if (code != "risConnCo.,Ltd.2021-0x75")
+                    {
+                        CustomConsole.WriteLineOK("Unlocked."); Kernel.debugMode = true;
+                    }
+                }
+            }));
             CMDs.Add(new CommandAppletman(new string[] { "appman"}));
             CMDs.Add(new CommandAction(new string[] { "play" }, () =>
             {

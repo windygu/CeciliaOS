@@ -63,7 +63,8 @@ namespace Aura_OS.System
 
             Kernel.running = false;
 
-            Console.BackgroundColor = ConsoleColor.Red;
+            //Console.BackgroundColor = ConsoleColor.Red;
+            Console.BackgroundColor = ConsoleColor.Blue;
 
             Kernel.AConsole.Clear(0xFFAA0000);
 
@@ -75,6 +76,13 @@ namespace Aura_OS.System
             Console.WriteLine("Description: " + description);
             Console.WriteLine("Cecilia Version: " + Kernel.version);
             Console.WriteLine("Cecilia Revision: " + Kernel.revision);
+            if (Kernel.version_mark != string.Empty)
+            {
+                Console.WriteLine("Cecilia OS Mark: " + Kernel.version_mark);
+                Console.WriteLine("");
+                Console.WriteLine("Warning: OS Mark is existed.It's only for developers to use.If you are customer,try ask OEM.");
+                Console.WriteLine("");
+            }
             if (lastknowaddress != "")
             {
                 Console.WriteLine("Last known address: 0x" + lastknowaddress);

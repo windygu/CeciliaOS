@@ -508,7 +508,9 @@ namespace Aura_OS.System.Drawable
             }
             else if (language == 1)
             {
-                return "fr_FR";
+                Kernel.debugMode = true;
+                return "en_US";
+                //return "fr_FR";
             }
             else if (language == 2)
             {

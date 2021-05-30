@@ -37,6 +37,15 @@ namespace Aura_OS.System.Shell.cmdIntr
                 string t = Time.YearString() + "/" + Time.MonthString() + "/" + Time.DayString();
                 Console.WriteLine("Your computer time: " + t); return new ReturnInfo(this, ReturnCode.OK);
             }
+            else if (args[0] == "-s" && args[1] == "comp-oem")
+            {
+                Console.WriteLine("Your computer OEMID: " + Kernel.OEMID);
+                if (Kernel.OEMID == 75)
+                {
+                    Console.WriteLine("OEM Name: RisConn Co., Ltd.");
+                }
+                return new ReturnInfo(this, ReturnCode.OK);
+            }
             else if (args[0] == "-c" && args[1] == "comp-name" && args.Count == 3 && args[2] != string.Empty && args[2] == "reset")
             {
                 Kernel.ComputerName = Kernel.oldCompName;
@@ -53,6 +62,7 @@ namespace Aura_OS.System.Shell.cmdIntr
             Console.WriteLine("- pcm -c comp-name reset           reset your computer name");
             Console.WriteLine("- pcm -s comp-lang                 show your computer lang");
             Console.WriteLine("- pcm -s comp-time                 show your computer time");
+            Console.WriteLine("- pcm -s comp-oem                  show your computer OEM");
         }
     }
 }
