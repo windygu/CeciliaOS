@@ -27,10 +27,10 @@ namespace Aura_OS.System
                     break;
 
                 case "en_US":
-                    Console.WriteLine(" * Welcome use Cecilia.For support,email to customer@biscuitcube.top.\n" +
+                    Console.WriteLine(" * Welcome use Cecilia.For support,email to customer@biscuitcube.top or support@risconn.net.\n" +
                         " * This version is a [PREVIEW] version.Developers are making more and more features in this.\n" +
-                        " * Know more information,Goto http://cecilia.biscuitcube.top/roadmap for more information.\n" +
-                        " * Content Guid:" + "0");
+                        " * Know more information,Goto http://cecilia.risconn.net/roadmap for more information.\n" +
+                        " * Content Guid:" + "0Welcome");
                     break;
 
                 case "nl_NL":

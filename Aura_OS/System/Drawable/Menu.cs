@@ -499,7 +499,8 @@ namespace Aura_OS.System.Drawable
             x_ = x;
             y_ = y;
             LanguageMenu(x, y);
-            string[] item = { "English: en_US", "Français: fr_FR", "Dutch: nl_NL", "Italiano: it_IT", "Polski: pl_PL" };
+            //string[] item = { "English: en_US", "Français: fr_FR", "Dutch: nl_NL", "Italiano: it_IT", "Polski: pl_PL" };
+            string[] item = { "English: en_US", "Debug: ac_DBG" };
             int language = GenericMenu(item, Langues, x, y);
             if (language == 0)
             {

@@ -28,9 +28,10 @@ namespace Aura_OS
 
         Setup setup = new Setup();
         public static bool running;
-        public static string version = "21.5.2.221PRE-RO";
-        public static string version_int = "21.5.2.221";
-        public static string version_tag = "preview;ro";
+        public static string version = "21.5.2.240";
+        public static string version_int = "21.5.2.240";
+        public static string version_tag = "release";
+        public static string oldCompName = ComputerName;
         public static string revision = VersionInfo.revision;
         public static string current_directory = @"0:\";
         public static string langSelected = "en_US";
