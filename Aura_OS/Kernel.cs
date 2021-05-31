@@ -31,7 +31,7 @@ namespace Aura_OS
         public static bool debugMode = false;
         public static long OEMID = 0x4b;
         public static string version = "21.5.2.240";
-        public static string version_wrapper = "21.5.2.241";
+        public static string version_wrapper = "21.5.2.242";
         public static string version_tag = "release";
         public static string version_mark = "Yoki"; // Yoki: OEM Test
         public static string oldCompName = ComputerName;
